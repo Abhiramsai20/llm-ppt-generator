@@ -1,100 +1,134 @@
 {
-    "title": "AWS CodePipeline: Automating Your Continuous Delivery",
+    "title": "Cricket: A Comprehensive Guide",
     "slides": [
         {
-            "title": "Introduction",
-            "summary": "Automate your software delivery with AWS CodePipeline.",
-            "content": "AWS CodePipeline is a fully managed service that simplifies continuous delivery. It integrates seamlessly with GitHub and supports custom plugins, making it cost-effective. With no upfront costs, you only pay for what you use.",
+            "title": "Introduction to Cricket",
+            "summary": "The game of cricket is steeped in tradition, embodying the ideals of fair play and sportsmanship.",
+            "content": "Cricket is a bat-and-ball sport played between two teams of eleven players each. The Laws of Cricket provide the rules for the game. The National Cricket Association (NCA) promotes cricket through coaching schemes and associations.",
             "bullets": [
-                "Automate your software delivery",
-                "Fully managed service",
-                "Seamless integration with GitHub",
-                "Supports custom plugins",
-                "Cost-effective"
+                "The NCA encourages playing cricket in accordance with the Laws of Cricket",
+                "Coaches are published in 'Cricket Coach' or 'Cricket World'",
+                "The beginning stage is exploratory, focusing on physical skills"
             ],
-            "example": "Real-world implementation of Introduction",
-            "takeaway": "Effortlessly streamline your deployment process.",
-            "need_image": true,
+            "example": "Real-world implementation of Introduction to Cricket",
+            "takeaway": "Learn about the history and traditions of cricket.",
+            "need_image": false,
             "image_path": "output/images\\slide_1.jpg"
         },
         {
-            "title": "Key Features",
-            "summary": "AWS CodePipeline's key features for continuous delivery.",
-            "content": "AWS CodePipeline automates the entire software delivery pipeline, from code changes to production deployments. It includes steps like build, test, and deployment, ensuring a smooth transition between development and production environments.",
+            "title": "Physical Conditioning for Cricket",
+            "summary": "Cricket requires high levels of physical fitness. The National Cricket Association emphasizes conditioning to improve performance.",
+            "content": "The Laws of Cricket provide a comprehensive guide on physical conditioning, including strength training and endurance exercises. This ensures players are well-prepared for the demands of cricket matches.",
             "bullets": [
-                "Automate your pipeline",
-                "Build and test automatically",
-                "Deploy directly to production"
+                "Physical conditioning is crucial for cricket",
+                "Laws of Cricket outline specific exercises"
             ],
-            "example": "Real-world implementation of Key Features",
-            "takeaway": "Streamline your delivery process with AWS CodePipeline.",
-            "need_image": true,
+            "example": "Real-world implementation of Physical Conditioning for Cricket",
+            "takeaway": "Understand how to condition your body for cricket.",
+            "need_image": false,
             "image_path": "output/images\\slide_2.jpg"
         },
         {
-            "title": "Workflow Example",
-            "summary": "A simplified workflow using AWS CodePipeline.",
-            "content": "Imagine a scenario where you have a new feature in development. With AWS CodePipeline, you can set up the pipeline to automatically build, test, and deploy your changes. This ensures that every change is thoroughly tested before being released into production.",
+            "title": "History of Cricket",
+            "summary": "The origins of cricket are not clearly documented, but evidence suggests it may have been played in Chichester Court and other locations.",
+            "content": "Cricket's history spans centuries. The Marylebone Cricket Club (MCC) was formed to administer the game worldwide. The International Cricket Conference renamed the International Cricket Council after South Africa re-admitted to international cricket.",
             "bullets": [
-                "New feature in development",
-                "Set up pipeline for automatic steps"
+                "The MCC is responsible for administering cricket",
+                "The ICC replaced the ICCC"
             ],
-            "example": "Real-world implementation of Workflow Example",
-            "takeaway": "AWS CodePipeline makes continuous delivery a breeze.",
-            "need_image": true,
+            "example": "Real-world implementation of History of Cricket",
+            "takeaway": "Explore the historical roots of cricket.",
+            "need_image": false,
             "image_path": "output/images\\slide_3.jpg"
         },
         {
-            "title": "Real World Example",
-            "summary": "A real-world use case of AWS CodePipeline in action.",
-            "content": "In a company that uses AWS CodePipeline, the development team can quickly deploy new features to production without manual intervention. This reduces deployment time and minimizes errors by automating every step of the process.",
+            "title": "Test and County Cricket Board",
+            "summary": "The Test and County Cricket Board regulates matches, while the National Cricket Association oversees recreational cricket.",
+            "content": "The Test and County Cricket Board runs test cricket, and the National Cricket Association manages county cricket. The International Cricket Council administers international cricket worldwide.",
             "bullets": [
-                "Real-world example",
-                "Development team deploys new feature"
+                "Regulates gate fees for test matches",
+                "Oversees county cricket"
             ],
-            "example": "Real-world implementation of Real World Example",
-            "takeaway": "AWS CodePipeline is a game-changer for continuous delivery.",
-            "need_image": true,
+            "example": "Real-world implementation of Test and County Cricket Board",
+            "takeaway": "Understand the structure of cricket governance.",
+            "need_image": false,
             "image_path": "output/images\\slide_4.jpg"
         },
         {
-            "title": "Challenges and Recommendations",
-            "summary": "Common challenges with AWS CodePipeline and recommendations to overcome them.",
-            "content": "While AWS CodePipeline simplifies continuous delivery, it can sometimes be overwhelming. To manage the complexity, consider using a CI/CD toolchain that integrates with AWS CodePipeline. This way, you can focus on your core development tasks while still benefiting from the automation provided by AWS CodePipeline.",
+            "title": "Recreational Cricket",
+            "summary": "Cricket is played in various forms, including Kwik Cricket for 10-year-olds and League cricket organized by individual leagues.",
+            "content": "Recreational or non-professional cricket is organized by the National Cricket Association. Schools cricket is managed by the English Schools Cricket Association, with good liaison between schools and county associations.",
             "bullets": [
-                "Overwhelming complexity",
-                "CI/CD integration recommended"
+                "Kwik Cricket for 10-year-olds",
+                "League cricket organized by individual leagues"
             ],
-            "example": "Real-world implementation of Challenges and Recommendations",
-            "takeaway": "Address challenges with a well-designed CI/CD strategy.",
-            "need_image": true,
+            "example": "Real-world implementation of Recreational Cricket",
+            "takeaway": "Learn about different types of cricket played in various settings.",
+            "need_image": false,
             "image_path": "output/images\\slide_5.jpg"
         },
         {
-            "title": "Future Trends",
-            "summary": "The future of AWS CodePipeline and its impact on continuous delivery.",
-            "content": "As the demand for faster, more reliable software increases, AWS CodePipeline will continue to evolve. With the integration of AI and machine learning, it will become even more intelligent and efficient in automating your continuous delivery process.",
+            "title": "Minor Counties Cricket Association",
+            "summary": "The Minor Counties Cricket Association was formed to look after the skills and development of players across minor counties.",
+            "content": "The Minor Counties Cricket Association focuses on developing players' skills, with a history dating back to 1895. This association is crucial for nurturing talent in cricket.",
             "bullets": [
-                "Future trends",
-                "Integration with AI/ML"
+                "Formed in 1895",
+                "Focuses on player development"
             ],
-            "example": "Real-world implementation of Future Trends",
-            "takeaway": "AWS CodePipeline is at the forefront of future developments in CI/CD.",
-            "need_image": true,
+            "example": "Real-world implementation of Minor Counties Cricket Association",
+            "takeaway": "Understand the role of minor counties in cricket development.",
+            "need_image": false,
             "image_path": "output/images\\slide_6.jpg"
         },
         {
-            "title": "Conclusion",
-            "summary": "AWS CodePipeline: The Future of Continuous Delivery",
-            "content": "AWS CodePipeline simplifies continuous delivery by automating your software pipeline. With its cost-effectiveness and integration with popular tools like GitHub, it's the perfect solution for modern development teams looking to streamline their deployment process.",
+            "title": "Women's Cricket Association",
+            "summary": "The Women's Cricket Association is organized either by county or school associations, providing a platform for women to play and develop their skills.",
+            "content": "The Women's Cricket Association aims to provide opportunities for women in cricket. It operates on both county and school levels, ensuring that female players have access to training and competition.",
             "bullets": [
-                "Simplifies complex processes",
-                "Cost-effective"
+                "Organized by county or school associations"
             ],
-            "example": "Real-world implementation of Conclusion",
-            "takeaway": "AWS CodePipeline is a game-changer in continuous delivery.",
-            "need_image": true,
+            "example": "Real-world implementation of Women's Cricket Association",
+            "takeaway": "Learn about the organization of women's cricket.",
+            "need_image": false,
             "image_path": "output/images\\slide_7.jpg"
+        },
+        {
+            "title": "Cricket: The Techniques of the Game",
+            "summary": "The Skills of Cricket, K. V. Andrew, and Cricket – The Techniques of the Game, Andrew, Carter, Lenham, provide comprehensive guides to the techniques of cricket.",
+            "content": "These books offer detailed explanations of the skills required in cricket, including batting, bowling, fielding, and overall game strategy. They are essential resources for players looking to improve their performance.",
+            "bullets": [
+                "The Skills of Cricket by K. V. Andrew",
+                "Cricket – The Techniques of the Game by Andrew et al."
+            ],
+            "example": "Real-world implementation of Cricket: The Techniques of the Game",
+            "takeaway": "Learn about the techniques and strategies in cricket.",
+            "need_image": false,
+            "image_path": "output/images\\slide_8.jpg"
+        },
+        {
+            "title": "Laws of Cricket (1980 Code)",
+            "summary": "The Laws of Cricket provide a comprehensive guide on how to play cricket, including rules for fielding, batting, bowling, and more.",
+            "content": "The 1980 Code provides detailed instructions on the laws of cricket. This code is essential for players, coaches, and administrators to understand the rules and regulations of the game.",
+            "bullets": [
+                "Comprehensive guide on playing cricket"
+            ],
+            "example": "Real-world implementation of Laws of Cricket (1980 Code)",
+            "takeaway": "Understand the rules and regulations of cricket.",
+            "need_image": false,
+            "image_path": "output/images\\slide_9.jpg"
+        },
+        {
+            "title": "Lord's Cricket Ground",
+            "summary": "The Lord’s Cricket Ground, c/o Warwickshire County Cricket Ground, is a significant venue for international matches and training sessions.",
+            "content": "The Lord’s Cricket Ground serves as the home ground of various cricket teams. It is also used for training sessions and hosting international matches. The ground's location in London makes it an important venue for both domestic and international cricket events.",
+            "bullets": [
+                "Home ground of various cricket teams",
+                "Used for training sessions"
+            ],
+            "example": "Real-world implementation of Lord's Cricket Ground",
+            "takeaway": "Learn about the significance of Lord’s Cricket Ground.",
+            "need_image": false,
+            "image_path": "output/images\\slide_10.jpg"
         }
     ]
 }

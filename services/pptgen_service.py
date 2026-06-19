@@ -36,7 +36,8 @@ def generate_pptx(slides_data):
         "deployment",
         "network",
         "pipeline",
-        "model"
+        "model",
+        "cricket"
     ]
 
     for i, slide in enumerate(
@@ -126,7 +127,7 @@ def generate_pptx(slides_data):
             slide["image_path"] = ""
 
     with open(
-        "../ppt-generator/slides.json",
+        "ppt-generator/slides.json",
         "w",
         encoding="utf-8"
     ) as file:
@@ -146,7 +147,7 @@ def generate_pptx(slides_data):
 
         subprocess.run(
             ["node", "generatePpt.js"],
-            cwd="../ppt-generator",
+            cwd="ppt-generator",
             check=True
         )
 

@@ -107,7 +107,7 @@ data.slides.forEach((slideData, index) => {
 
     const hasImage =
         slideData.image_path &&
-        fs.existsSync("../backend/" + slideData.image_path);
+        fs.existsSync("../" + slideData.image_path);
 
     const textWidth = hasImage ? 7 : 12;
 
@@ -261,7 +261,7 @@ data.slides.forEach((slideData, index) => {
     if (hasImage) {
 
         slide.addImage({
-            path: "../backend/" + slideData.image_path,
+            path: "../" + slideData.image_path,
             x: 8,
             y: 1.2,
             w: 4.4,
@@ -366,7 +366,16 @@ thankYouSlide.addText(
 // =========================
 // SAVE PPT
 // =========================
+const path = require("path");
+
+console.log(
+    "Saving PPT to:",
+    path.resolve("../output/generated_presentation.pptx")
+);
 
 pptx.writeFile({
-    fileName: "../backend/output/generated_presentation.pptx"
+    fileName: "../output/generated_presentation.pptx"
+
+}).then(() => {
+    console.log("PPT CREATED SUCCESSFULLY");
 });
