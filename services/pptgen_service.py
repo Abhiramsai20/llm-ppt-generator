@@ -37,7 +37,8 @@ def generate_pptx(slides_data):
         "network",
         "pipeline",
         "model",
-        "cricket"
+        "cricket",
+        "any topic"
     ]
 
     for i, slide in enumerate(

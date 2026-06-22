@@ -1,134 +1,113 @@
 {
-    "title": "Cricket: A Comprehensive Guide",
+    "title": "The Future of Cloud Computing: Six Advantages and Types",
     "slides": [
         {
-            "title": "Introduction to Cricket",
-            "summary": "The game of cricket is steeped in tradition, embodying the ideals of fair play and sportsmanship.",
-            "content": "Cricket is a bat-and-ball sport played between two teams of eleven players each. The Laws of Cricket provide the rules for the game. The National Cricket Association (NCA) promotes cricket through coaching schemes and associations.",
+            "title": "Introduction",
+            "summary": "Cloud computing is the on-demand delivery of IT resources.",
+            "content": "In a cloud environment, new resources are accessed quickly. Focus on business needs instead of infrastructure.\n\nKey benefits: Speed, agility, scalability, cost savings, and dedicated resources for specific tasks.",
             "bullets": [
-                "The NCA encourages playing cricket in accordance with the Laws of Cricket",
-                "Coaches are published in 'Cricket Coach' or 'Cricket World'",
-                "The beginning stage is exploratory, focusing on physical skills"
+                "Focus on business needs",
+                "Quick resource access",
+                "Scalability without infrastructure changes",
+                "Cost-effective with budget flexibility"
             ],
-            "example": "Real-world implementation of Introduction to Cricket",
-            "takeaway": "Learn about the history and traditions of cricket.",
-            "need_image": false,
+            "example": "Real-world implementation of Introduction",
+            "takeaway": "Cloud computing simplifies IT management and enhances productivity.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-advantages",
             "image_path": "output/images\\slide_1.jpg"
         },
         {
-            "title": "Physical Conditioning for Cricket",
-            "summary": "Cricket requires high levels of physical fitness. The National Cricket Association emphasizes conditioning to improve performance.",
-            "content": "The Laws of Cricket provide a comprehensive guide on physical conditioning, including strength training and endurance exercises. This ensures players are well-prepared for the demands of cricket matches.",
+            "title": "Types of Cloud Computing",
+            "summary": "Three main types: Public, Private, and Hybrid cloud.",
+            "content": "Public clouds are shared resources accessible to anyone. Private clouds are dedicated for a single organization. Hybrid combines both public and private clouds.\n\nKey benefits: Flexibility, security, and integration with existing infrastructure.",
             "bullets": [
-                "Physical conditioning is crucial for cricket",
-                "Laws of Cricket outline specific exercises"
+                "Public Clouds",
+                "Private Clouds",
+                "Hybrid Clouds"
             ],
-            "example": "Real-world implementation of Physical Conditioning for Cricket",
-            "takeaway": "Understand how to condition your body for cricket.",
-            "need_image": false,
+            "example": "Real-world implementation of Types of Cloud Computing",
+            "takeaway": "Choose the right type based on your needs for flexibility and security.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-types",
             "image_path": "output/images\\slide_2.jpg"
         },
         {
-            "title": "History of Cricket",
-            "summary": "The origins of cricket are not clearly documented, but evidence suggests it may have been played in Chichester Court and other locations.",
-            "content": "Cricket's history spans centuries. The Marylebone Cricket Club (MCC) was formed to administer the game worldwide. The International Cricket Conference renamed the International Cricket Council after South Africa re-admitted to international cricket.",
+            "title": "AWS Services Overview",
+            "summary": "Amazon Web Services (AWS) offers a wide range of cloud computing services.",
+            "content": "AWS provides compute, storage, databases, and applications. It's popular for its scalability and cost-effectiveness.\n\nKey benefits: Scalability, flexibility, and integration with other AWS services.",
             "bullets": [
-                "The MCC is responsible for administering cricket",
-                "The ICC replaced the ICCC"
+                "Compute",
+                "Storage",
+                "Databases",
+                "Applications"
             ],
-            "example": "Real-world implementation of History of Cricket",
-            "takeaway": "Explore the historical roots of cricket.",
-            "need_image": false,
+            "example": "Real-world implementation of AWS Services Overview",
+            "takeaway": "AWS is a comprehensive solution for cloud computing needs.",
+            "need_image": true,
+            "image_keyword": "aws-services-overview",
             "image_path": "output/images\\slide_3.jpg"
         },
         {
-            "title": "Test and County Cricket Board",
-            "summary": "The Test and County Cricket Board regulates matches, while the National Cricket Association oversees recreational cricket.",
-            "content": "The Test and County Cricket Board runs test cricket, and the National Cricket Association manages county cricket. The International Cricket Council administers international cricket worldwide.",
+            "title": "Benefits of Cloud Computing",
+            "summary": "Cloud computing offers speed, agility, cost savings, and dedicated resources.",
+            "content": "In a cloud environment, new IT resources are accessed quickly. Focus on business needs instead of infrastructure.\n\nKey benefits: Speed, agility, scalability, cost savings, and dedicated resources for specific tasks.",
             "bullets": [
-                "Regulates gate fees for test matches",
-                "Oversees county cricket"
+                "Speed",
+                "Agility",
+                "Scalability",
+                "Cost Savings"
             ],
-            "example": "Real-world implementation of Test and County Cricket Board",
-            "takeaway": "Understand the structure of cricket governance.",
-            "need_image": false,
+            "example": "Real-world implementation of Benefits of Cloud Computing",
+            "takeaway": "Cloud computing enhances productivity by simplifying IT management.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-benefits",
             "image_path": "output/images\\slide_4.jpg"
         },
         {
-            "title": "Recreational Cricket",
-            "summary": "Cricket is played in various forms, including Kwik Cricket for 10-year-olds and League cricket organized by individual leagues.",
-            "content": "Recreational or non-professional cricket is organized by the National Cricket Association. Schools cricket is managed by the English Schools Cricket Association, with good liaison between schools and county associations.",
+            "title": "Types of Cloud Computing Services",
+            "summary": "Three main types: Public, Private, and Hybrid cloud services.",
+            "content": "Public clouds are shared resources accessible to anyone. Private clouds are dedicated for a single organization. Hybrid combines both public and private clouds.\n\nKey benefits: Flexibility, security, and integration with existing infrastructure.",
             "bullets": [
-                "Kwik Cricket for 10-year-olds",
-                "League cricket organized by individual leagues"
+                "Public Clouds",
+                "Private Clouds",
+                "Hybrid Clouds"
             ],
-            "example": "Real-world implementation of Recreational Cricket",
-            "takeaway": "Learn about different types of cricket played in various settings.",
-            "need_image": false,
+            "example": "Real-world implementation of Types of Cloud Computing Services",
+            "takeaway": "Choose the right type based on your needs for flexibility and security.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-types-services",
             "image_path": "output/images\\slide_5.jpg"
         },
         {
-            "title": "Minor Counties Cricket Association",
-            "summary": "The Minor Counties Cricket Association was formed to look after the skills and development of players across minor counties.",
-            "content": "The Minor Counties Cricket Association focuses on developing players' skills, with a history dating back to 1895. This association is crucial for nurturing talent in cricket.",
+            "title": "Real World Examples",
+            "summary": "Cloud computing is used in various industries, including healthcare, finance, and education.",
+            "content": "In the healthcare industry, cloud computing helps manage patient data securely. In finance, it streamlines transactions and reduces costs.\n\nKey benefits: Enhanced security, improved efficiency, and better collaboration.",
             "bullets": [
-                "Formed in 1895",
-                "Focuses on player development"
+                "Healthcare",
+                "Finance",
+                "Education"
             ],
-            "example": "Real-world implementation of Minor Counties Cricket Association",
-            "takeaway": "Understand the role of minor counties in cricket development.",
-            "need_image": false,
+            "example": "Real-world implementation of Real World Examples",
+            "takeaway": "Cloud computing is widely adopted across various industries for enhanced security and efficiency.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-real-world-examples",
             "image_path": "output/images\\slide_6.jpg"
         },
         {
-            "title": "Women's Cricket Association",
-            "summary": "The Women's Cricket Association is organized either by county or school associations, providing a platform for women to play and develop their skills.",
-            "content": "The Women's Cricket Association aims to provide opportunities for women in cricket. It operates on both county and school levels, ensuring that female players have access to training and competition.",
+            "title": "Future Trends",
+            "summary": "The future of cloud computing includes AI, IoT, and edge computing.",
+            "content": "AI is transforming the way we use cloud computing. IoT connects devices to the internet for better data management.\n\nKey benefits: Enhanced collaboration, improved decision-making, and enhanced security.",
             "bullets": [
-                "Organized by county or school associations"
+                "AI",
+                "IoT",
+                "Edge Computing"
             ],
-            "example": "Real-world implementation of Women's Cricket Association",
-            "takeaway": "Learn about the organization of women's cricket.",
-            "need_image": false,
+            "example": "Real-world implementation of Future Trends",
+            "takeaway": "The future of cloud computing is driven by AI, IoT, and edge computing for better collaboration and decision-making.",
+            "need_image": true,
+            "image_keyword": "cloud-computing-future-trends",
             "image_path": "output/images\\slide_7.jpg"
-        },
-        {
-            "title": "Cricket: The Techniques of the Game",
-            "summary": "The Skills of Cricket, K. V. Andrew, and Cricket – The Techniques of the Game, Andrew, Carter, Lenham, provide comprehensive guides to the techniques of cricket.",
-            "content": "These books offer detailed explanations of the skills required in cricket, including batting, bowling, fielding, and overall game strategy. They are essential resources for players looking to improve their performance.",
-            "bullets": [
-                "The Skills of Cricket by K. V. Andrew",
-                "Cricket – The Techniques of the Game by Andrew et al."
-            ],
-            "example": "Real-world implementation of Cricket: The Techniques of the Game",
-            "takeaway": "Learn about the techniques and strategies in cricket.",
-            "need_image": false,
-            "image_path": "output/images\\slide_8.jpg"
-        },
-        {
-            "title": "Laws of Cricket (1980 Code)",
-            "summary": "The Laws of Cricket provide a comprehensive guide on how to play cricket, including rules for fielding, batting, bowling, and more.",
-            "content": "The 1980 Code provides detailed instructions on the laws of cricket. This code is essential for players, coaches, and administrators to understand the rules and regulations of the game.",
-            "bullets": [
-                "Comprehensive guide on playing cricket"
-            ],
-            "example": "Real-world implementation of Laws of Cricket (1980 Code)",
-            "takeaway": "Understand the rules and regulations of cricket.",
-            "need_image": false,
-            "image_path": "output/images\\slide_9.jpg"
-        },
-        {
-            "title": "Lord's Cricket Ground",
-            "summary": "The Lord’s Cricket Ground, c/o Warwickshire County Cricket Ground, is a significant venue for international matches and training sessions.",
-            "content": "The Lord’s Cricket Ground serves as the home ground of various cricket teams. It is also used for training sessions and hosting international matches. The ground's location in London makes it an important venue for both domestic and international cricket events.",
-            "bullets": [
-                "Home ground of various cricket teams",
-                "Used for training sessions"
-            ],
-            "example": "Real-world implementation of Lord's Cricket Ground",
-            "takeaway": "Learn about the significance of Lord’s Cricket Ground.",
-            "need_image": false,
-            "image_path": "output/images\\slide_10.jpg"
         }
     ]
 }

@@ -76,6 +76,30 @@ IMPORTANT:
   - bullets
   - takeaway
   - need_image
+  - image_keyword
+
+  Image Keyword Rules:
+
+If need_image = true:
+
+Generate a specific Google image search phrase.
+
+Examples:
+
+Architecture Overview
+→ AWS AI architecture diagram
+
+Use Cases and Applications
+→ AWS AI use cases infographic
+
+Real World Examples
+→ AWS AI real world implementation diagram
+
+Future Trends
+→ AI cloud computing future trends infographic
+
+If need_image = false:
+image_keyword = ""
 
 - Return ONLY valid JSON.
 - Do not return markdown.
@@ -146,11 +170,58 @@ Format:
                     "bullets": [],
                     "example": "",
                     "takeaway": "",
-                    "need_image": False
+                    "need_image": False,
+                    "image_keyword": ""
                 }
             ]
         }
+def regenerate_presentation(
+    topic,
+    content,
+    current_slides,
+    feedback
+):
 
+    prompt = f"""
+You are improving an existing presentation.
+
+TOPIC:
+{topic}
+
+USER FEEDBACK:
+{feedback}
+
+CURRENT SLIDES:
+{json.dumps(current_slides, indent=2)}
+
+Requirements:
+
+- Improve the presentation according to feedback.
+- Keep 8 slides.
+- Keep professional formatting.
+- Improve only the content quality.
+- Avoid repetition.
+- Keep JSON structure identical.
+
+Return ONLY valid JSON.
+"""
+
+    response = ollama.generate(
+        model="qwen2.5:1.5b",
+        prompt=prompt,
+        format="json",
+        options={
+            "temperature": 0.1
+        }
+    )
+
+    try:
+        return json.loads(
+            response["response"]
+        )
+
+    except Exception:
+        return current_slides
 
 def generate_image_prompt(title, content):
 
